@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário de Viagens</title>
+    </head>
+    <body>
+        <h2>Reserva de Viagem</h2>
+
+        <form action="form.html">
+            <p>
+                Primeiro Nome:
+                <input type="text" name="pnome" autofocus required>
+            </p>
+            <p>
+                Último Nome:
+                <input type="text" name="unome" required>
+            </p>
+            <p>
+                Email:
+                <input type="text" name="email" size="40" required>
+            </p>
+            <p>
+                Telefone:
+                <input type="text" name="tel" pattern="[0-9]{9}" required>
+            </p>
+            <p>
+                Data de Partida:
+                <input type="date" name="data" required>
+            </p>
+            <p>
+                Hora de Partida:
+                <input type="text" name="hor" size="2" min="0" max="12" required>:
+                <input type="text" name="min" size="2" min="0" max="59" required>:
+                <input type="text" name="seg" size="2" min="0" max="59" required>
+
+                <select name="time">
+                    <option value="am" selected>AM</option>
+                    <option value="pm">PM</option>
+                </select> AM/PM
+            </p>
+            <p>
+                Número de viajantes: <input type="text" name="nviajantes" min="0" max="10" required>
+            </p>
+            <p>
+                Quais os percursos que mais lhe interessam?<br/>
+                <textarea name="percursos" rows="10" cols="30" required></textarea>
+            </p>
+            <p>
+            Qual a melhor forma de o contactar:
+            </p>
+            <p>
+                <input type="checkbox" name="ctel">Telefone
+                <input type="checkbox" name="cemail">Email
+                <input type="checkbox" name="coutra">Outra
+            </p>
+            <p>
+            Se escolheu telefone, qual o melhor período do dia para o contactar:
+            </p>
+            <p>
+                <input type="radio" name="r1">8-11 am
+                <input type="radio" name="r2">12-4 pm
+                <input type="radio" name="r3">6-10 pm
+            </p>
+            <p>
+                Observações (opcional):<br/>
+                <textarea name="percontact" rows="10" cols="30"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submeter">
+                <input type="reset" value="Apagar">
+            </p>
+        </form>
+    </body>
+</html>
