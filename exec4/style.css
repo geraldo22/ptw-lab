@@ -2,11 +2,6 @@ body
 {
     background-color: yellow;
     text-align: center;
-    position: relative;
-    top: auto;
-    bottom: auto;
-    left: auto;
-    right: auto;
 }
 
 img
