@@ -8,6 +8,7 @@ body
 {
     background-color: black;
     color: white;
+    text-align: justify;
     text-indent: 5px;
     line-height: 1.8;
 }
