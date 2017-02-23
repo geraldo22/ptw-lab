@@ -1,11 +1,12 @@
 body
 {
     background-color: yellow;
-}
-
-h1, h2, p
-{
     text-align: center;
+    position: relative;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
 }
 
 img
