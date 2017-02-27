@@ -10,7 +10,7 @@ body
     bottom: 0;
 }
 
-img, h1, h2
+#logo, h1, h2
 {
     text-align: center;
 }
