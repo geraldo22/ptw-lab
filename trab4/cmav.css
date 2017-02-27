@@ -10,6 +10,13 @@ body
     bottom: 0;
 }
 
+h1 a
+{
+    text-decoration: none;
+    color: brown;
+    
+}
+
 h2
 {
     color: gold;
