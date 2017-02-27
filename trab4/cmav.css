@@ -64,3 +64,7 @@ table th
     color: white;
     padding: 10px;
 }
+table td img
+{
+    width: 100%;
+}
