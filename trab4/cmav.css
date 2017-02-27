@@ -53,6 +53,7 @@ table, th, td
 }
 table
 {
+    margin: auto;
     width: 1000px;
     border-collapse: collapse;
 }
