@@ -41,8 +41,25 @@ h2
     padding: 20px;
 }
 
-ul
+li
 {
-    list-style-image: url(seta.gif);
     display: inline;
+}
+
+table, th, td
+{
+    border: 2px solid brown;
+    padding: 5px;
+}
+table
+{
+    width: 1000px;
+    border-collapse: collapse;
+}
+table th
+{
+    background-color: dimgrey;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
