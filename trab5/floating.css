@@ -1,0 +1,22 @@
+body
+{
+	background-color: lightgrey;
+}
+
+.container
+{
+	margin: auto;
+	background-color: white;
+	width: 750px;
+	padding: 1%;
+}
+
+.cabecalho
+{
+	margin: auto;
+}
+
+.cabecalho#logo
+{
+	overflow: hidden;
+}
