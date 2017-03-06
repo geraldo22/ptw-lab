@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt_pt">
     <head>
-        <!--meta charset="UTF-8" http-equiv="refresh" content="0; url=cmav.html"-->
+        <meta charset="UTF-8">
         <meta name="author" content="Pedro Geraldo">
-        <meta name="description" content="Trabalho Laboratorial 5 de PTW">
-		<link rel="stylesheet" href="floating.css">
-		<link rel="stylesheet" href="positioning.css">
-		<title>CMAV - Template</title>
+        <style>
+            body
+            {
+                overflow: auto;
+            }
+            div
+            {
+                width: 50%;
+                height: 100%;
+                float: left;
+            }
+            iframe
+            {
+                width: 100%;
+                height: inherit;
+            }
+        </style>
     </head>
-	<body>
-		<div class="container">
-			<div class="cabecalho">
-				<img src="cabecalho.jpg">
-				<img src="logo.gif" id="logo">
-			</div>
-		</div>
-	</body>
+    <body>
+        <div>
+            <a href="floating.html">
+                Floating
+            </a><br>
+            <iframe src="floating.html"></iframe>
+        </div>
+        <div>
+            <a href="positioning.html">
+                Positioning
+            </a><br>
+            <iframe src="positioning.html"></iframe>
+        </div>
+    </body>
 </html>

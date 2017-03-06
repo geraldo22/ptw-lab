@@ -1,0 +1,127 @@
+html
+{
+	background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+body
+{
+	margin: 0.5% auto;
+	background-color: white;
+	width: 750px;
+	padding: 0.5%;
+    position: relative;
+    overflow: auto;
+}
+
+header
+{
+    background-image: url(cabecalho.jpg);
+    background-size: cover;
+    padding: inherit;
+    height: 249px;
+    position: relative;
+}
+
+header img
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav, .nav a
+{
+    position: relative;
+    list-style-type: none;
+    background-color: brown;
+    padding: inherit;
+    color: white;
+    text-decoration: none;
+}
+.nav li
+{
+    padding: inherit;
+    position: static;
+    display: inline-flex;
+}
+.nav li form
+{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+.main
+{
+    position: relative;
+}
+article
+{
+    /*position: absolute;*/
+    width: 74%;
+    top: 0;
+    left: 0;
+}
+article h1
+{
+    color: brown;
+    text-indent: 2%;
+}
+article p
+{
+    color: grey;
+    text-align: left;
+    padding-left: 5%;
+}
+article p a
+{
+    color: brown;
+}
+
+.menulado
+{
+    border: 2px solid lightgrey;
+    position: absolute;
+    width: 25%;
+    right: 0;
+    top: 0;
+}
+.menulado div
+{
+    background-color: lightgrey;
+    background-size: auto;
+    padding: .5%;
+    color: white;
+}
+.menulado ul, .menulado ul a
+{
+    background-color: white;
+    background-size: auto;
+    list-style-image: url(seta.gif);
+    color: brown;
+    text-decoration: none;
+}
+
+footer
+{
+    background-color: grey;
+    padding: inherit;
+}
+footer div
+{
+    position: relative;
+}
+footer div
+{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
