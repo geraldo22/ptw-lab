@@ -1,0 +1,30 @@
+body
+{
+    border: 2px solid grey;
+    margin: auto;
+    margin-top: 5%;
+    width: 250px;
+    text-align: center;
+}
+
+h1
+{
+    color: red;
+    font-family: verdana;
+    font-size: 16px;
+}
+
+div
+{
+    padding: 5%;
+}
+div input
+{
+    background-color: green;
+    border: solid green;
+    margin-top: 4px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    font-size: 14px;
+}
