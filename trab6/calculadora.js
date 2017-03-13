@@ -5,7 +5,8 @@ for (var i = 0; i < key.lenght; i++)
 function keyPress()
 {
     var kp = thisContent;
-    document.getElementById("e").value += kp;
+    var xp = document.getElementById("e").value;
+    document.getElementById("e").value = xp.concat(kp);
 }
 
 function calcular()
