@@ -9,37 +9,28 @@
 		<title>
             Calculadora
         </title>
-        <script>
-            function calcular()
-            {
-                var r = eval(document.getElementById("expressao").value);
-                document.getElementById("resultado").value = r;
-            }
-        </script>
     </head>
     <body>
         <h1>Calculadora</h1>
-        <form>
-            E:<input id="expressao" type="text" readonly/><br>
-            R:<input id="resultado" type="text" readonly/>
-            <div>
-                <input type="button" name="n9" value="9"/>
-                <input type="button" name="n8" value="8"/>
-                <input type="button" name="n7" value="7"/>
-                <input type="button" name="nd" value="&divide;"/>
-                <input type="button" name="n6" value="6"/>
-                <input type="button" name="n5" value="5"/>
-                <input type="button" name="n4" value="4"/>
-                <input type="button" name="nx" value="&times;"/>
-                <input type="button" name="n3" value="3"/>
-                <input type="button" name="n2" value="2"/>
-                <input type="button" name="n1" value="1"/>
-                <input type="button" name="nn" value="&minus;"/>
-                <input type="button" name="nC" value="C"/>
-                <input type="button" name="n0" value="0"/>
-                <input type="button" name="ni" value="&equals;"/>
-                <input type="button" name="nm" value="&plus;"/>
-            </div>
-        </form>
+        E:<input type="text" name="exp" readonly/><br>
+        R:<input type="text" name="res" readonly/>
+        <div class="keypad">
+            <div class="key">9</div>
+            <div class="key">8</div>
+            <div class="key">7</div>
+            <div class="key">&divide;</div>
+            <div class="key">6</div>
+            <div class="key">5</div>
+            <div class="key">4</div>
+            <div class="key">&times;</div>
+            <div class="key">3</div>
+            <div class="key">2</div>
+            <div class="key">1</div>
+            <div class="key">&minus;</div>
+            <div class="key">C</div>
+            <div class="key">0</div>
+            <div class="key">&equals;</div>
+            <div class="key">&plus;</div>
+        </div>
     </body>
 </html>
