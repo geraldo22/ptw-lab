@@ -5,12 +5,11 @@ for (var i = 0; i < key.lenght; i++)
 function keyPress()
 {
     var kp = thisContent;
-    document.getElementById("exp").value += kp;
+    document.getElementById("e").value += kp;
 }
-var key = document.getElementsByClassName("key");
 
 function calcular()
 {
     var r = eval(document.getElementById("exp").value);
-    document.getElementById("res").value = r;
+    document.getElementById("r").value = r;
 }
