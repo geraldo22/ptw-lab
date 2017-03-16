@@ -1,35 +1,35 @@
-body
-{
+body {
     border: 2px solid grey;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     width: 250px;
     text-align: center;
     padding: 5px;
 }
 
-h1
-{
+h1 {
     color: red;
     font-family: verdana;
     font-size: 16px;
 }
 
-.keypad div
-{
-    background-color: green;
-    border: solid green;
-    display: inline-block;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    vertical-align: middle;
-    color: white;
-    line-height: 50%;
+input {
+    color: black;
 }
 
-.keypad div:hover
-{
-    background-color: black;
+.keypad div {
+    background-color: green;
+    border: 3px solid green;
+    display: inline-block;
+    margin: 2px 0 2px 0;
+    height: 50px;
+    width: 50px;
     color: white;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.keypad div:hover {
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
 }
