@@ -1,4 +1,5 @@
-body {
+body
+{
     border: 2px solid grey;
     margin: auto;
     margin-top: 3%;
@@ -7,29 +8,31 @@ body {
     padding: 5px;
 }
 
-h1 {
+h1
+{
     color: red;
     font-family: verdana;
     font-size: 16px;
 }
-
-input {
+input
+{
     color: black;
 }
 
-.keypad div {
+#keypad .key
+{
     background-color: green;
     border: 3px solid green;
     display: inline-block;
-    margin: 2px 0 2px 0;
+    margin: 2px;
     height: 50px;
     width: 50px;
     color: white;
     line-height: 50px;
     vertical-align: middle;
 }
-
-.keypad div:hover {
+#keypad .key:hover
+{
     background-color: lightgreen;
     border: 3px solid lightgreen;
 }
