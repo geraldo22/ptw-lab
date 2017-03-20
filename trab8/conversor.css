@@ -1,0 +1,68 @@
+body
+{
+    background-image: url(imagens/worldmap.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: serif;
+}
+
+body div
+{
+    text-align: center;
+}
+h1 { color: blue; }
+h1 img { vertical-align: middle; }
+
+textarea
+{
+    border: 2px solid grey;
+    padding: 10px;
+    border-radius: 25px;
+    color: #787878;
+    text-align: inherit;
+    resize: none;
+}
+
+#button
+{
+    background-image: url(imagens/bg_button.png);
+    background-position: center;
+    margin: auto;
+    width: 127px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+}
+#button:hover{ background-image: url(imagens/bg_button_hover.png); }
+
+#r
+{
+    border: 1px solid grey;
+    background-color: white;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    overflow: auto;
+    visibility: hidden;
+}
+#r div
+{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+    text-align: center;
+}
+#r div span
+{
+    float: left;
+    color: green;
+    font-size: 12px;
+}
+#r div #erro {color: red;}
+#r div p
+{
+    border-top: 1px solid lightgrey;
+    color: #787878;
+    margin-bottom: 0;
+}

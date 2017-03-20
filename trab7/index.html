@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Pedro Geraldo">
+        <meta name="description" content="Trabalho Laboratorial 7 de PTW">
+        <link rel="stylesheet" href="index.css">
+        <title>Conversor de Coordenadas Geográficas</title>
+    </head>
+    <body>
+        <div>
+            <h1>
+                <img src="imagens/globe.gif">
+                Conversor de Coordenadas
+                <img src="imagens/globe.gif">
+            </h1>
+            <textarea id="input" rows="3" cols="60" placeholder="Introduza as coordenadas separadas por vírgulas (ex: W47º04'34&quot;,S22º49'54&quot;,N40º34'28&quot;)"></textarea><br>
+            <div id="button">Converter</div><br>
+            <div id="r">
+                <div>
+                    <span>Entrada (graus-min-seg)</span>
+                    <p id="in"></p>
+                </div>
+                <div>
+                    <span>Saída (graus decimais)</span>
+                    <p id="out"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
